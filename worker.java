@@ -1,4 +1,4 @@
-public class worker{
+public class Worker{
 private int empNum;
 private String lastName;
 private String firstName;
@@ -17,16 +17,22 @@ public String getlastName(){
 	return lastName;
 }
 public void setfirstName(String name){
-	lastName = name;
+	firstName = name;
 }
 public String getfirstName(){
-	return lastName;
+	return firstName;
 }
 public void setSalary(double sal){
 	salary = sal;
 }
 public double getSalary(){
 	return salary;
+}
+public void disp(){
+System.out.println("Emp number is 	:	" + empNum);
+System.out.println("Last Name		:	" + lastName);
+System.out.println("First Name		:	" + firstName);
+System.out.println("Salary 		:	" + salary);		
 }
 
 }
